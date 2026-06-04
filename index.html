@@ -30,7 +30,6 @@
             border: 1px solid rgba(70, 130, 200, 0.25);
         }
 
-        /* стилизация заголовков */
         h1 {
             font-size: 3.2rem;
             font-weight: 800;
@@ -129,6 +128,24 @@
             filter: drop-shadow(0 0 2px #fff);
         }
 
+        .gif-section {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .tf2-gif {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.6);
+            border: 2px solid rgba(59, 130, 246, 0.5);
+            transition: transform 0.2s;
+        }
+        .tf2-gif:hover {
+            transform: scale(1.01);
+            border-color: #3b82f6;
+        }
+
         .note {
             text-align: center;
             font-size: 0.85rem;
@@ -186,6 +203,11 @@
     <div class="badge">⚡ ЛЕГЕНДАРНОЕ СООБЩЕСТВО</div>
     <h1>Скесы <span style="font-weight: 400; font-size: 2rem;">⎯</span> история и дух</h1>
     <div class="subhead">Как ник «скес» стал символом упорства, братства и чистого гейминга</div>
+
+    <!-- Гифка с накаченным Heavy из TF2 -->
+    <div class="gif-section">
+        <img class="tf2-gif" src="https://i.imgur.com/bJp5pFs.gif" alt="Накаченный Heavy из Team Fortress 2 качает бицепс" loading="lazy">
+    </div>
 
     <section>
         <h2>📜 Кто такие скесы?</h2>
